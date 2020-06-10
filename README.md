@@ -11,7 +11,8 @@ The following files are available:
 * pandWindow.js : Javascript file contains the functionality of comparing the input phrase to the letters of the alphabet
 * style.css: styling features
 
-To test the application simply open the panWindow.html file in any browser.
+To test the application locally simply clone or download the repository and open the panWindow.html file in any browser.
+Or check it out here: https://amyhu-git.github.io/pan-window/.
 
 ![Alt text](screenshot/outcome1.PNG "Example outcome")
 
