@@ -1,24 +1,51 @@
 <!DOCTYPE html>
 <html>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <title>Pangrammatic Windows</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <title>✌ Pangrammatic Windows</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
 
-<body>
-    <h2>Welcome to the Pangrammatic Window Detector!</h2>
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <p id="outcome">Let's see what you got ...</p>
+  <body>
+    <div class="container">
+      <div id="home" class="flex-center flex-column">
+        <h3>Welcome to the Pangrammatic Window Detector!</h3>
+        <div id="info-box">
+            A pangrammatic window is a stretch of naturally occurring text that
+            contains all the letters in the alphabet.
+          </p>
+        </div>
+        <hr>
+        <p id="outcome">Let's see what you got ...</p>
 
-    <div class="form">
-        <label for="content"> Please enter your phrase:</label>
-        <textarea class="u-full-width" type="text" id="phrase" name="content"></textarea>
-        <button class="button-primary" id="submit" onClick="checkPhrase()">CHECK MY PHRASE</button>
+        <div class="form">
+          <label for="content"> Please enter your phrase:</label>
+          <textarea
+            class="u-full-width"
+            type="text"
+            id="phrase"
+            name="content"
+          ></textarea>
+          <button class="button-primary" id="submit" onClick="checkPhrase()">
+            CHECK MY PHRASE
+          </button>
+        </div>
+      </div>
     </div>
 
     <script src="panWindow.js"></script>
-</body>
-
+  </body>
 </html>
