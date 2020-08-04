@@ -17,6 +17,7 @@ p {
 .form {
   width: 50%;
   margin: 0 auto;
+  display: contents;
 }
 
 .container {
@@ -53,6 +54,10 @@ p {
 
 button {
   text-align: center;
+}
+/* 
+#submit {
   display: block;
   margin: 0 auto;
-}
+
+} */
